@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Page from "./components/Page";
-import { Router, Route, IndexRoute, hashHistory } from "react-router";
+import { Router, browserHistory, Route, IndexRoute } from "react-router";
 
 const app = document.getElementById('app');
 
 ReactDOM.render(
-  <Router history={hashHistory}>
+  <Router history={browserHistory}>
     <Route path="/" component={Page}>
-    <IndexRoute component={Page}></IndexRoute>
     </Route>
   </Router>,
 app);
