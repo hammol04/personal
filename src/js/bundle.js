@@ -8,6 +8,7 @@ const app = document.getElementById('app');
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={Page}>
+      <IndexRoute component={Page}></IndexRoute>
     </Route>
   </Router>,
 app);
