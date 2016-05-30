@@ -31,10 +31,10 @@
     "react"
   ],
   "scripts": {
-    "postinstall": "grunt build && npm build",
+    "postinstall": "npm build && grunt build",
     "dev": "webpack-dev-server --content-base src --inline --hot",
     "build": "webpack --config ./webpack.config.js --progress --colors",
-    "start": "node ./src/app.min.js"
+    "start": ""
   },
   "author": "",
   "license": "ISC"
