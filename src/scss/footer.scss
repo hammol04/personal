@@ -1,0 +1,8 @@
+@import "colour";
+.footer {
+  background: $sub-header;
+
+  > p {
+    color: $header-title;
+  }
+}

@@ -1,0 +1,28 @@
+.item {
+  padding-bottom: 1em;  
+}
+
+.item__image {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 1em;
+}
+
+.item__info {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+@media (min-width: 700px) {
+  .item__image {
+    width: 50%;
+    padding-bottom: 0;
+  }
+
+  .item__info {
+    width: 50%;
+    padding-left: 1em;
+  }
+}

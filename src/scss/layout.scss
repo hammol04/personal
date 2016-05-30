@@ -1,0 +1,26 @@
+.spacing {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.spacing--small {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.spacing--horizontal {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+
+.spacing--none {
+  margin: 0;
+  padding:0;
+}
+
+@media (min-width: 700px) {
+  .spacing--horizontal {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+}
