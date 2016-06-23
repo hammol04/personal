@@ -4,7 +4,7 @@ import Reccomendation from "./Reccomend/Link";
 export default class Reccomend extends React.Component {
   render() {
     return (
-      <section class="spacing spacing--horizontal">
+      <section class="container spacing spacing--horizontal">
         <h2 class="title">Things I Reccomend</h2>
         <Reccomendation type="Podcast" title="Soft Skills Engineering" link="twitter.com/softskillseng"/>
         <Reccomendation type="Reading" title="jQuery source code. It's personally taught me a lot" link="ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.js"/>

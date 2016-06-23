@@ -4,7 +4,7 @@ import Item from "./Portfolio/Item";
 export default class Portfolio extends React.Component {
   render() {
     return (
-      <section class="spacing--horizontal">
+      <section class="container spacing--horizontal">
         <h2 class="title">Portfolio</h2>
         <Item
           img="./img/1_g.jpg"

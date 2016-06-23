@@ -1,5 +1,5 @@
 .item {
-  padding-bottom: 1em;  
+  padding-bottom: 1em;
 }
 
 .item__image {
@@ -7,6 +7,10 @@
   display: inline-block;
   vertical-align: top;
   padding-bottom: 1em;
+}
+
+.item__image:hover {
+  cursor: pointer;
 }
 
 .item__info {
